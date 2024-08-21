@@ -1,0 +1,8 @@
+name: myApp
+
+services:
+  web:
+    build: ./app
+    container_name: todo_app
+    ports:
+      - "80:3000"
